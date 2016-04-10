@@ -126,7 +126,7 @@ public class MyWallpaperService extends WallpaperService {
                         if (point.detectCollision(x, y, 15.f)) {
                             Random rand = new Random();
                             point.setColor(Color.argb(200, rand.nextInt(256), rand.nextInt(256), rand.nextInt(256)));
-                            point.negateVector();
+                            //point.negateVector();
                         }
                     }
                 } finally {
